@@ -1,0 +1,17 @@
+.imagem-esquerda {
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .imagem-direita {
+    float: right;
+    margin-left: 10px;
+  }
+  
+  p {
+    width: 800px;
+    height: 130px;
+    border: 1px;
+    border-style: solid;
+    border-color: lavender;
+  }
