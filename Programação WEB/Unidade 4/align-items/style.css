@@ -4,22 +4,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+.cont{
+    background-color: azure;
+    height: 100vh;
+    width: 100vh;
+    padding: 10px;
+    display: flex; 
+    justify-content: center;
+
+}
+
+.cont-align{
     background-color: azure;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-items: flex-start;
     height: 100vh;
 }
 .item{
     background-color: aqua;
-    padding: 10px;
     margin: 10px;
     color: black;
-    border-radius: 5px;
     font-size: 22px;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
     font-weight: bold;
-    text-align: center;
-    width: 200px;
-    height: 200px;
+
 }
