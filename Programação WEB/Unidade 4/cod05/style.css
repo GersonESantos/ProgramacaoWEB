@@ -1,0 +1,11 @@
+.exxxxxx01-flex-container {
+    display: flex;
+    }
+.ex01-flex-container > div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    }

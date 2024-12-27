@@ -1,0 +1,34 @@
+div {
+    background-color: black;
+    margin: 4px 0;
+    width: 100%;
+  }
+  
+  div > code {
+    display: block;
+    background-color: red;
+    color: white;
+    height: 48px;
+  }
+  
+  .calc1 > code {
+    /* Output width: `110px` */
+    width: calc(10px + 100px);
+  }
+  
+  .calc2 > code {
+    /* Output width: `10em` */
+    width: calc(2em * 5);
+  }
+  
+  .calc3 > code {
+    /* Output width: Depends on the container's width */
+    width: calc(100% - 32px);
+  }
+  
+  .calc4 > code {
+    --predefined-width: 100%;
+    /* Output width: Depends on the container's width */
+    width: calc(var(--predefined-width) - calc(16px * 2));
+  }
+  
