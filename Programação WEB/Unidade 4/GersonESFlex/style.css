@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.item{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
